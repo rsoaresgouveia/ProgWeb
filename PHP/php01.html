@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!-- My first page -->
+<html>
+	<head>
+		<title>Minha primeira página</title>
+		<meta charset = "UTF-8"/>
+		<style>
+			.class{
+				width: 400x;
+			}
+		</style>
+
+	</head>
+	<body>
+		<h1>O dragão da montanha</h1>
+		<h3>Lenda de Renji</h3>
+		
+		<!-- Textto Aleatório -->
+		
+		<div class="class">Long long time ago, there was a dragon living by the montain in the north of the continent Hyrl. Severe knight kept trying to fight the beast, but no one returned.</div>
+		<div class="class">Until now, boy named Renji, born from tow woodcutters who had nothing in life, saw the advirtise with a great reward and decide to go hunt the beast, no one ever imagined that that boy could actually survive until he even sees the great dragon of the north...</div>
+		<div class="class">Continues in next episode...</div>
+		<hr>
+
+		<div></div>
+		<form id="form" method="POST" action= "http://localhost/ProgWeb-A/PHP/php1.php">
+			<table>
+					<tr>
+						<td>Nome:</td>
+						<td>
+							<input type="text" name="nome" id="nome">
+							</td>
+					</tr>
+						<td>E-mail:</td>
+						<td>
+							<input type="text" name="email" id="mail">
+						</td>	
+					<tr>
+						<td>Sexo:</td>
+						<td><select name= "sexo" id="sexo">
+								<option value="Masculino">Masculino</option>
+								<option value="feinino">Feminino</option>
+							</select>
+						</td>
+							</form>
+					</tr>
+					<tr>
+						<td>Seu Comentário Aqui:</td>
+						<td>
+							<textarea id="comment" name= "comentario" rows="5" cols="30"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" name="submit" id="submit" value="Enviar">
+						</td>
+					</tr>	
+			</table>
+		</form>
+	</body>
+</html>
